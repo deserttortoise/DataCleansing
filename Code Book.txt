@@ -1,0 +1,76 @@
+Code Book:
+
+The data from the UCI dataset was consoilidated into 81 variables. In the testing 30 subjects were measured using wearable technology doing a variety of activities.
+Once the data was collected we then filtered using regular expressions to variables with either mean or standard deviation. We then aggregated them by subject and activity.
+
+Variables:
+
+Subject Number= The ID number of the 30 subjects involved
+Activity= The Activity the subject was performing "Walking","Walking Upstairs","Walking Downstairs","Sitting","Standing","lying"
+Mean of tBodyAcc-X mean()= The average measurment of tBodyAcc-X mean() aggregated by subject and activity
+Mean of tBodyAcc-X std()= The average measurment of tBodyAcc-X std() aggregated by subject and activity
+Mean of tBodyAcc-Y mean()= The average measurment of tBodyAcc-Y mean() aggregated by subject and activity
+Mean of tBodyAcc-Y std()= The average measurment of tBodyAcc-Y std() aggregated by subject and activity
+Mean of tBodyAcc-Z mean()= The average measurment of tBodyAcc-Z mean() aggregated by subject and activity
+Mean of tBodyAcc-Z std()= The average measurment of tBodyAcc-Z std() aggregated by subject and activity
+Mean of tGravityAcc-X mean()= The average measurment of tGravityAcc-X mean() aggregated by subject and activity
+Mean of tGravityAcc-X std()= The average measurment of tGravityAcc-X std() aggregated by subject and activity
+Mean of tGravityAcc-Y mean()= The average measurment of tGravityAcc-Y mean() aggregated by subject and activity
+Mean of tGravityAcc-Y std()= The average measurment of tGravityAcc-Y std() aggregated by subject and activity
+Mean of tGravityAcc-Z mean()= The average measurment of tGravityAcc-Z mean() aggregated by subject and activity
+Mean of tGravityAcc-Z std()= The average measurment of tGravityAcc-Z std() aggregated by subject and activity
+Mean of tBodyAccJerk-X mean()= The average measurment of tBodyAccJerk-X mean() aggregated by subject and activity
+Mean of tBodyAccJerk-X std()= The average measurment of tBodyAccJerk-X std() aggregated by subject and activity
+Mean of tBodyAccJerk-Y mean()= The average measurment of tBodyAccJerk-Y mean() aggregated by subject and activity
+Mean of tBodyAccJerk-Y std()= The average measurment of tBodyAccJerk-Y std() aggregated by subject and activity
+Mean of tBodyAccJerk-Z mean()= The average measurment of tBodyAccJerk-Z mean() aggregated by subject and activity
+Mean of tBodyAccJerk-Z std()= The average measurment of tBodyAccJerk-Z std() aggregated by subject and activity
+Mean of tBodyGyro-X mean()= The average measurment of tBodyGyro-X mean() aggregated by subject and activity
+Mean of tBodyGyro-X std()= The average measurment of tBodyGyro-X std() aggregated by subject and activity
+Mean of tBodyGyro-Y mean()= The average measurment of tBodyGyro-Y mean() aggregated by subject and activity
+Mean of tBodyGyro-Y std()= The average measurment of tBodyGyro-Y std() aggregated by subject and activity
+Mean of tBodyGyro-Z mean()= The average measurment of tBodyGyro-Z mean() aggregated by subject and activity
+Mean of tBodyGyro-Z std()= The average measurment of tBodyGyro-Z std() aggregated by subject and activity
+Mean of tBodyGyroJerk-X mean()= The average measurment of tBodyGyroJerk-X mean() aggregated by subject and activity
+Mean of tBodyGyroJerk-X std()= The average measurment of tBodyGyroJerk-X std() aggregated by subject and activity
+Mean of tBodyGyroJerk-Y mean()= The average measurment of tBodyGyroJerk-Y mean() aggregated by subject and activity
+Mean of tBodyGyroJerk-Y std()= The average measurment of tBodyGyroJerk-Y std() aggregated by subject and activity
+Mean of tBodyGyroJerk-Z mean()= The average measurment of tBodyGyroJerk-Z mean() aggregated by subject and activity
+Mean of tBodyGyroJerk-Z std()= The average measurment of tBodyGyroJerk-Z std() aggregated by subject and activity
+Mean of tBodyAccMag mean()= The average measurment of tBodyAccMag mean() aggregated by subject and activity
+Mean of tBodyAccMag std()= The average measurment of tBodyAccMag std() aggregated by subject and activity
+Mean of tGravityAccMag mean()= The average measurment of tGravityAccMag mean() aggregated by subject and activity
+Mean of tGravityAccMag std()= The average measurment of tGravityAccMag std() aggregated by subject and activity
+Mean of tBodyAccJerkMag mean()= The average measurment of tBodyAccJerkMag mean() aggregated by subject and activity
+Mean of tBodyAccJerkMag std()= The average measurment of tBodyAccJerkMag std() aggregated by subject and activity
+Mean of tBodyGyroMag mean()= The average measurment of  tBodyGyroMag mean() aggregated by subject and activity
+Mean of tBodyGyroMag std()= The average measurment of  tBodyGyroMag std() aggregated by subject and activity
+Mean of tBodyGyroJerkMag mean()= The average measurment of tBodyGyroJerkMag mean() aggregated by subject and activity
+Mean of tBodyGyroJerkMag std()= The average measurment of tBodyGyroJerkMag std() aggregated by subject and activity
+Mean of fBodyAcc-X mean()= The average measurment of fBodyAcc-X mean() aggregated by subject and activity
+Mean of fBodyAcc-X std()= The average measurment of fBodyAcc-X std() aggregated by subject and activity
+Mean of fBodyAcc-Y mean()= The average measurment of fBodyAcc-Y mean() aggregated by subject and activity
+Mean of fBodyAcc-Y std()= The average measurment of fBodyAcc-Y std() aggregated by subject and activity
+Mean of fBodyAcc-Z mean()= The average measurment of fBodyAcc-Z mean() aggregated by subject and activity
+Mean of fBodyAcc-Z std()= The average measurment of fBodyAcc-Z std() aggregated by subject and activity
+Mean of fBodyAccJerk-X mean()= The average measurment of fBodyAccJerk-X mean() aggregated by subject and activity
+Mean of fBodyAccJerk-X std()= The average measurment of fBodyAccJerk-X std() aggregated by subject and activity
+Mean of fBodyAccJerk-Y mean()= The average measurment of fBodyAccJerk-Y mean() aggregated by subject and activity
+Mean of fBodyAccJerk-Y std()= The average measurment of fBodyAccJerk-Y std() aggregated by subject and activity
+Mean of fBodyAccJerk-Z mean()= The average measurment of fBodyAccJerk-Z mean() aggregated by subject and activity
+Mean of fBodyAccJerk-Z std()= The average measurment of fBodyAccJerk-Z std() aggregated by subject and activity
+Mean of fBodyGyro-X mean()= The average measurment of fBodyGyro-X mean() aggregated by subject and activity
+Mean of fBodyGyro-X std()= The average measurment of fBodyGyro-X std() aggregated by subject and activity
+Mean of fBodyGyro-Y mean()= The average measurment of fBodyGyro-Y mean() aggregated by subject and activity
+Mean of fBodyGyro-Y std()= The average measurment of fBodyGyro-Y std() aggregated by subject and activity
+Mean of fBodyGyro-Z mean()= The average measurment of fBodyGyro-Z mean() aggregated by subject and activity
+Mean of fBodyGyro-Z std()= The average measurment of fBodyGyro-Z std() aggregated by subject and activity
+Mean of fBodyAccMag mean()= The average measurment of fBodyAccMag mean() aggregated by subject and activity
+Mean of fBodyAccMag std()= The average measurment of fBodyAccMag std() aggregated by subject and activity
+Mean of fBodyAccJerkMag mean()= The average measurment of fBodyAccJerkMag mean() aggregated by subject and activity
+Mean of fBodyAccJerkMag std()= The average measurment of fBodyAccJerkMag std() aggregated by subject and activity
+Mean of fBodyGyroMag mean()= The average measurment of fBodyGyroMag mean() aggregated by subject and activity
+Mean of fBodyGyroMag std()= The average measurment of fBodyGyroMag std() aggregated by subject and activity
+Mean of fBodyGyroJerkMag mean()= The average measurment of fBodyGyroJerkMag mean() aggregated by subject and activity
+Mean of fBodyGyroJerkMag std()= The average measurment of fBodyGyroJerkMag std() aggregated by subject and activity
+

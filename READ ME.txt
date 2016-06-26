@@ -1,0 +1,40 @@
+This Repository contains data and code for the Getting and Cleansing Data final project.
+
+Original Dataset:
+The original dataset was taken from a UCI study of the Samsumg Galaxy S SmartPhone.
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+More desctiptions can be found here.
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Preparation:
+
+Data Loading:
+The data was originally seperated into multiple files, for some reason, such as a training and testing set, a list of subjects and list of factors.
+
+The first step was simply to load the data into R.
+
+Combining Data:
+The measurement data was combined with subject and activity and renamed appropriately.
+
+The name of the factors was taken from the factors_txt original file.
+
+Filtering Variables:
+
+We then filtered the data to variables that included either a mean or standard deviation.
+
+Exporting Tidy Data:
+
+We then exported the new tidy dataset. This dataset is the average measurment for variables originally containing a mean or standard deviation by subject and activity.
+
+Files:
+
+Code Book
+
+#The code book for the project.
+
+run_analysis.R The R Code for the assignment
+
+Aggregated Data:
+
+We then aggregated the data to take the mean of a varibale by subject number (1-30) and by activity. 
